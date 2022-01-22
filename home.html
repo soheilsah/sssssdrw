@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html xml:lang="fa" lang="en" dir="rtl">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+        
+        li:last-child {
+            border-right: none;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: #04AA6D;
+        }
+        
+        .name-poem1 {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        
+        .name-poem a:hover {
+            color: rgb(219, 10, 3);
+        }
+        
+        .b-sub1 {
+            background-color: #04AA6D;
+            width: 100%;
+            margin-bottom: 1px;
+            padding-bottom: 10px;
+            margin-top: -5px;
+        }
+        
+        .sub1 {
+            font-family: b titr;
+            color: darkred;
+            font-size: 30px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            alert(".به کتاب باز خوش آمدید");
+        }, 1000);
+
+        function display(element) {
+            document.getElementById('image').innerHTML = element.alt;
+        }
+
+        function revert() {
+            document.getElementById('image').innerHTML = "Hover over a sunsign image to display details.";
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body style="border: 0px ; margin: 0px">
+    <ul>
+        <li style="float:right"><a class="active" href="home.html">صفحه اصلی</a></li>
+        <li style="float:right"><a href="#footer">درباره ما</a></li>
+        <li style="float:right"><a href="page3.html">بلاگ</a></li>
+        <button class="btn-solid" id="btn-login-modal">ورود</button>
+
+
+    </ul>
+
+    <div>
+        <div class="container-modal">
+            <div class="modal-form">
+                <span class="modal-form__close">&#10006;</span>
+                <section class="modal-form__content">
+                    <div class="modal-form__head">
+                        <span class="modal-form__title">ورود</span>
+                        <p class="modal-form__desc">کتاب باز</p>
+                    </div>
+                    <form action="index.html">
+                        <div class="modal-form__group">
+                            <label for="email" class="modal-form__label">ایمیل</label>
+                            <input type="email" class="modal-form__input" id="email">
+                        </div>
+                        <div class="modal-form__group">
+                            <label for="password" class="modal-form__label">پسورد</label>
+                            <input type="password" class="modal-form__input" id="password">
+                        </div>
+                        <button class="btn-solid btn-solid--w100">ورود</button>
+                        <button class="btn-regular btn-regular--w100">ثبت نام</button>
+
+                    </form>
+                </section>
+                <section class="modal-form__cover">
+                    <div class="modal-form__cover-pic">
+                        <div class="modal-form__cover-desc">
+                            <p dir="rtl" style="text-align: center;">ورود</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+
+    </div>
+
+    <div class="header">
+        <p class="name-header" style=" text-align:center ;">کتاب باز </p>
+        <div class="logo-header">
+
+            <img src="img/logo.png" class="img-logo-header">
+
+        </div>
+
+    </div>
+    </div>
+    <div class="home1">
+
+        <img class="home1" src="img/home-1.jpg" width="100%">
+
+
+    </div>
+    <div>
+        <div class="b-sub1">
+            <p class="sub1">یکی از بزرگترین افتخارات ما ایرانی ها شاعران طراز اول مان هستند که در جدول زیر به تعدادی از انها اشاره شده است</p>
+        </div>
+
+        <div class="tabl">
+
+            <table class="table1" align="center" border="1">
+                <tr align="center" valign="middle">
+                    <th>نام شاعر</th>
+                    <th>کتاب معروف</th>
+                </tr>
+                <tr align="center" valign="middle">
+                    <td class="name-poem"><big> <a class="name-poem1" href="https://fa.wikipedia.org/wiki/%D8%B3%D8%B9%D8%AF%DB%8C"target="_blank" title="اطلاعات بیشتر درمورد شاعر"> حافظ</big></td>
+                    <td>دیوان اشعار</td>
+                </tr>
+                <tr align="center" valign="middle">
+                    <td class="name-poem"><big> <a class="name-poem1" href="https://fa.wikipedia.org/wiki/%D8%B3%D8%B9%D8%AF%DB%8C"target="_blank" title="اطلاعات بیشتر درمورد شاعر"> سعدی</big></td>
+                    <td>بوستان</td>
+                </tr>
+                <tr align="center" valign="middle">
+                    <td class="name-poem"><big><a class="name-poem1" href="https://fa.wikipedia.org/wiki/%D8%B4%D9%87%D8%B1%DB%8C%D8%A7%D8%B1_(%D8%B4%D8%A7%D8%B9%D8%B1)"target="_blank" title="اطلاعات بیشتر درمورد شاعر"> شهریار</big></td>
+                    <td>حیدر بابا</td>
+                </tr>
+                <tr align="center" valign="middle">
+                    <td class="name-poem"><big>  <a class="name-poem1" href="https://fa.wikipedia.org/wiki/%D9%85%D9%88%D9%84%D9%88%DB%8C"target="_blank" title="اطلاعات بیشتر درمورد شاعر">مولوی</big></td>
+                    <td>مثنوی معنوی</td>
+                </tr>
+                <tr align="center" valign="middle">
+                    <td class="name-poem"><big><a class="name-poem1" href="https://fa.wikipedia.org/wiki/%D9%86%D8%B8%D8%A7%D9%85%DB%8C_%DA%AF%D9%86%D8%AC%D9%88%DB%8C"target="_blank" title="اطلاعات بیشتر درمورد شاعر">نظامی</big></td>
+                    <td>هفت پیکر</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/حافظ.jpg">
+                <img src="img/حافظ.jpg" alt="حافظ " width="600" height="400">
+            </a>
+            <div class="desc">حافظ</div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/shahriar.jpg">
+                <img src="img/shahriar.jpg" alt="شهریار" width="600" height="400">
+            </a>
+            <div class="desc">شهریار</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/molavi.jpg">
+                <img src="img/molavi.jpg" alt=" مولوی" width="600" height="400">
+            </a>
+            <div class="desc">مولوی</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/sadi.jfif">
+                <img src="img/sadi.jfif" alt="سعدی" width="600" height="400">
+            </a>
+            <div class="desc">سعدی</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="footer" id="footer">
+        <p style="text-align: center;">
+            هدف سایت ما معرفی اثار شاعران بزرگ و معرفی کتاب های مشهور آنان است و می کوشیم .در راستای این هدف و اعتلای فرهنگ عزیزمان تلاش کنیم که برای نمونه در بلگ سایت کتاب بوستان سعدی معرفی شده است </p>
+    </div>
+
+
+</body>
+
+</html>
