@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xml:lang="fa" lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+
+    <title>صفحه ثبت نام </title>
+</head>
+
+<body>
+
+    <button class="btn-solid" id="btn-login-modal">ثبت نام</button>
+    <div>
+        <div class="first_cover-pic">
+            <div class="first_cover-desc">
+                <p dir="rtl" style="text-align: center;">به <a href="home.html" style="text-decoration: none; ">کتاب باز</a>خوش آمدید</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-modal">
+        <div class="modal-form">
+            <span class="modal-form__close">&#10006;</span>
+            <section class="modal-form__content">
+                <div class="modal-form__head">
+                    <span class="modal-form__title">ثبت نام</span>
+                    <p class="modal-form__desc">کتاب باز</p>
+                </div>
+                <form>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="fname">نام</label>
+                        </div>
+                        <div class="modal-form__input">
+                            <input type="password" id="fname" name="firstname" placeholder="نام">
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="lname">نام خانوادگی</label>
+                        </div>
+                        <div class="modal-form__input">
+                            <input type="text" id="lname" name="lastname" placeholder="نام خانوادگی">
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="country">استان</label>
+                        </div>
+                        <div class="modal-form__input">
+                            <select id="country" name="country">
+                              <option value="esfahan">اصفهان</option>
+                              <option value="qom">قم</option>
+                              <option value="mashhad">مشهد </option>
+                              <option value="tehran">تهران </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="fname">آدرس</label>
+                        </div>
+                        <div class="modal-form__input">
+                            <input type="text" id="fname" name="firstname" placeholder="آدرس">
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="fname">کدپستی</label>
+                        </div>
+                        <div class="modal-form__input">
+                            <input type="text" id="fname" name="firstname" placeholder="کدپستی">
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="fname">شماره تماس</label>
+                        </div>
+                        <div class="modal-form__input">
+                            <input type="number" id="fname" name="firstname" placeholder="شماره تماس">
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__label">
+                            <label for="fname">علاقه مندی</label>
+                        </div>
+                        <div class="checkboox">
+                            <div class="check">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="رمان">
+                                <label abel for="vehicle1"> رمان</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="علمی">
+                                <label for="vehicle2"> علمی</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="مذهبی">
+                                <label for="vehicle3"> مذهبی</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-form__group">
+                        <div class="modal-form__group">
+                            <div class="modal-form__label">
+                                <lable>آپلود عکس(اختیاری)</lable>
+                            </div>
+                            <div class="modal-form__input">
+                                <input type="file" accept="jpg">
+                            </div>
+
+                        </div>
+                        <br>
+                        <button class="btn-solid btn-solid--w100">ثبت نام</button>
+
+                </form>
+            </section>
+            <section class="modal-form__cover">
+                <div class="modal-form__cover-pic">
+                    <div class="modal-form__cover-desc">
+                        <p dir="rtl" style="text-align: center;">ثبت نام</p>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+
+<!DOCTYPE html>
+<html xml:lang="fa" lang="en" dir="rtl">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+    <title>بلاگ</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        
+        #container {
+            width: 960px;
+            margin: 0 auto 0;
+        }
+        
+        #header {
+            width: 100%;
+            height: 80px;
+        }
+        
+        #left {
+            width: 100%;
+            height: 800px;
+            float: left;
+        }
+        
+        #content {
+            width: 65%;
+            height: 1300px;
+            float: right;
+        }
+        
+        #footer {
+            width: 100%;
+            height: 100px;
+            clear: both;
+        }
+        
+        .meno {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .meno1 {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+        
+        .meno1:last-child {
+            border-right: none;
+        }
+        
+        .meno1 a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .meno1 a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: #04AA6D;
+        }
+        
+        .name-poem1 {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        
+        .name-poem a:hover {
+            color: rgb(219, 10, 3);
+            font-size: 20px;
+        }
+        
+        .b-sub1 {
+            background-color: #04AA6D;
+            width: 100%;
+            margin-bottom: 1px;
+            padding-bottom: 10px;
+            margin-top: -5px;
+        }
+        
+        .sub1 {
+            font-family: b titr;
+            color: darkred;
+            font-size: 30px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body style="border: 0px ; margin: 0px ; background-color:beige;direction:rtl">
+    <ul class="meno">
+        <li class="meno1" style="float:right"><a class="active" href="home.html">صفحه اصلی</a></li>
+        <li class="meno1" style="float:right"><a href="#footer">درباره ما</a></li>
+        <li class="meno1" style="float:right"><a href="page3.html">بلاگ</a></li>
+        <button class="btn-solid" id="btn-login-modal">ورود</button>
+
+
+    </ul>
+    <div id="container">
+        <div id="header">
+
+            <p align="center" style="font-weight:900 ;font-size:34"> معرفی کتاب بوستان سعدی</p>
+        </div>
+
+        <div id="left">
+            <a href="https://fa.wikipedia.org/wiki/%D8%A8%D9%88%D8%B3%D8%AA%D8%A7%D9%86_%D8%B3%D8%B9%D8%AF%DB%8C" target="_blank">
+                <img src="boostan.jpg" alt="کتاب بوستان سعدی" title="بوستان یکی  از بهترین کتاب های سعدی است" style="float:left ; height:782; width:950 ;border:10px brown solid; align :center">
+            </a>
+        </div>
+        <div id="content">
+            <p>
+                <dl style=" font-family:area,tahoma;font-size:20"><dt style=" font-family:area,tahoma;font-size:24;direction:rtl">بوستان:</dt>
+                    <dd>اثر منظوم سعدی شیرازی، شاعر و نویسنده بزرگ پارسی گوی ایرانی و زاده شیراز که نام و کلامش بر بلندای ادب گیتی خود نمایی می کند. بوستان سعدی در قالب مثنوی و در بحر متقارب به سرایش در آمده است. این دفتر در ده باب به نگارش در آمده است</dd>
+                </dl>
+                .<br/></p>
+            <p style=" font-family:area,tahoma;font-size:22">بوستان سعدی به ده باب تقسیم شده‌است:</p>
+            <ol style=" font-family:area,tahoma;font-size:20">
+                <li>عدل</li>
+                <li>احسان</li>
+                <li>عشق</li>
+                <li>تواضع</li>
+                <li>رضا</li>
+                <li>قناعت</li>
+                <li>تربیت</li>
+                <li>شکر</li>
+                <li>توبه</li>
+                <li>مناجات</li>
+                <br/></ol>
+
+            <p style=" font-family:area,tahoma;font-size:20">سعدی شیرازی، جامعه مطلوب انسانی و واقع گرایانه ای که در ذهن داشت را در بوستان به زینت سخن بیان داشته است. پندهای اخلاقی و انسان دوستانه سعدی در بوستان به زیبایی خودنمایی می کند. در بوستان او به تمام و کمال داد مردم دوستی میدهد و پتک سنگین
+                خود را بر سر ظالمان میزند. انصاف و حق پذیری و کمک به همنوع خود ، در سخن ناب سعدی بیان شده است.حق گویی و حق پذیری، جان کلام سعدی بزرگوار است.<br/></p>
+
+            <p align="center" style="font-size:24">دیباچه بوستان سعدی</p>
+
+            <pre align="center" style="font-size:16;direction:rtl;font-weight:bold; font-family:area,tahoma">
+ به نام خداوند جان آفرین		         حکیم سخن در زبان آفرین
+ خداوند بخشندهٔ دستگیر		            کریم خطا بخش پوزش پذیر
+عزیزی که هر کز درش سر بتافت		  به هر در که شد هیچ عزت نیافت
+سر پادشاهان گردن فراز		        به درگاه او بر زمین نیاز 
+   نه گردن کشان را بگیرد به فور	        نه عذرآوران را براند به جور
+وگر خشم گیرد ز کردار زشت		   چو بازآمدی ماجرا در نوشت
+اگر با پدر جنگ جوید کسی		       پدر بی گمان خشم گیرد بسی
+وگر خویش راضی نباشد ز خویش		  چو بیگانگانش براند ز پیش
+وگر بنده چابک نباشد به کار		   عزیزش ندارد خداوندگار
+وگر بر رفیقان نباشی شفیق		  به فرسنگ بگریزد از تو رفیق
+
+
+</pre>
+            <p align="center" style="font-size:24">نمونهٔ اشعار بوستان سعدی</p>
+            <pre align="center" style="font-size:16;direction:rtl;font-weight:bold;font-family:area,tahoma">
+
+به مجنون کسی گفت کای نیک پی		چه بودت که دیگر نیایی به حی؟
+مگر در سرت شور لیلی نماند		خیالت دگر گشت و میلی نماند؟
+چو بشنید بیچاره بگریست زار		که ای خواجه دستم ز دامن بدار
+مرا خود دلی دردمند است ریش		تو نیزم نمک بر جراحت مریش
+ نه دوری دلیل صبوری بود 		   که بسیار دوری ضروری بود
+بگفت ای وفادار فرخنده خوی		پیامی که داری به لیلی بگوی
+بگفتا مبر نام من پیش دوست		که حیف است نام من آنجا که اوست
+</pre>
+        </div>
+
+        <br /><br /><br />
+
+    </div>
+
+    <div class="footer" id="footer">
+        <p style="text-align: center;">
+            هدف سایت ما معرفی اثار شاعران بزرگ و معرفی کتاب های مشهور آنان است و می کوشیم .در راستای این هدف و اعتلای فرهنگ عزیزمان تلاش کنیم که برای نمونه در بلگ سایت کتاب بوستان سعدی معرفی شده است </p>
+    </div>
+
+
+</body>
+
+</html>
